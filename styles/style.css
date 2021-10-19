@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+:root {
+    --main-yellow: #FDC800;
+    --anchor-size: 14px;
+    --main-black: #212529;
+    --a-color: #002147;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-ribbon {
+    width: 100%;
+    height: 48px;
+    background-color: var(--main-yellow);
+}
+
+.header-content-container {
+    margin: 12px auto 0;
+    display: flex;
+    max-width: 1174px;
+    width: 100%;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.header-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 477px;
+    height: 24px;
+}
+
+.header-logos-container {
+    display: flex;
+    width: 132px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.header-info {
+    display: flex;
+    font-size: var(--anchor-size);
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.header-info a {
+    color: var(--main-black);
+    font-size: var(--anchor-size);
+}
+
+.header-navigation {
+    width: 100%;
+    background-color: #F0F4F9;
+    height: 100px;
+    position: relative;
+}
+
+.header-navigation-container {
+    max-width: 1171px;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-navigation-right {
+    width: 566px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    width: 326px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: var(--a-color);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button-search-container {
+    width: 175px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-button {
+    width: 115px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    background-color: var(--main-yellow);
+    color: var(--a-color);
+    font-size: 16px;
+}
+
+.search-box {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
