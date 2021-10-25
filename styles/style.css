@@ -749,7 +749,7 @@ h2 {
 .burger-bar {
     display: none;
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--a-color);
 }
 
 .form-wraper {

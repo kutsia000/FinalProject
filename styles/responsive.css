@@ -1,0 +1,15 @@
+/* 768px */
+@media (max-width: 768px) {
+    .navigation, .button-search-container, .header-ribbon {
+        display: none;
+    }
+
+    .header-navigation-right {
+        justify-content: right;
+        margin-right: 30px;
+    }
+
+    .burger-bar {
+        display: block;
+    }
+}
