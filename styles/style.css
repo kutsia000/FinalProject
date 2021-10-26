@@ -255,7 +255,7 @@ h4 {
 
 .contenct-container { 
     max-width: 1170px;
-    width: 100%;
+    width: 90%;
     height: 420px;
     display: flex;
     justify-content: space-between;

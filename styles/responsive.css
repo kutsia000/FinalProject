@@ -36,6 +36,36 @@
         max-width: 90%;
         height: 77px;
     }   
+
+    .price-card {
+        width: 338px !important;
+    }
+
+    .packet-wraper {
+        width: 230px !important;
+    }
+
+    .button-purchase {
+        width: 265px !important;
+    }
+}
+
+/* 1162px */
+@media (max-width:1162px) {
+    .price-card {
+        width: 310px !important;
+    }
+
+    .packet-wraper {
+        width: 210px !important;
+    }
+
+    .button-purchase {
+        width: 245px !important;
+    }
+    .cources-container,.dropdowns-container{
+        justify-content: space-around;
+    }
 }
 
 /* 1024px */
@@ -70,10 +100,51 @@
     .right-box {
         width: 60%;
     }
+
+    .prices-wraper,.prices-container {
+        height: auto;
+    }
+
+    .price-cards-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price-card {
+        margin-top:16px;
+    }
+
+    .prices-titles h2 {
+        font-size: 40px;
+    }
+
+    .price-card {
+        width: 300px;
+    }
+
+    .packet-wraper {
+        width: 200px;
+    }
+
+    .button-purchase {
+        width: 235px;
+    }
+
+    .prices-titles,.dropdowns-container {
+        padding: 10px;
+    }
+    .dropdown-wraper {
+        margin-bottom: 16px;
+    }
+
+    .contenct-container img {
+        height: 260px;
+    }
 }
 
-/* 768px */
-@media (max-width: 768px) {
+/* 791px */
+@media (max-width: 791px) {
     .header-navigation {
         height: 80px;
     }
@@ -95,6 +166,26 @@
     .burger-bar {
         display: block;
     }
+
+    .third-container, .third-container {
+        height: auto !important;
+    }
+
+    .infos-container {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;       
+        align-items: center;
+    }
+
+    .info-card {
+        margin-top: 16px;
+    }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+    
 
     .map {
         height: 200px;
@@ -123,6 +214,42 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .prices-titles h2 {
+        font-size: 32px;
+    }
+
+    .prices-title-search {
+        height: 120px;
+    }
+
+    .cources-header-container,.dropdowns-container,.cources-header {
+        height: auto;
+        width: 100%;
+    }
+
+    .contenct-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenct-container img {
+        margin-top: 16px;
+    }
+
+    .texts-container h1 {
+        font-size: 22px;        
+    }
+
+    .texts-container h3 {
+        font-size: 14px;        
+    }
+
+    .button-primary {
+        width: 153px;
+        height: 43px;
+    }
 }
 
 /* 586px */
@@ -138,6 +265,21 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .prices-titles h2 {
+        font-size: 36px;
+    }
+    .prices-titles h2 {
+        font-size: 24px;
+    }
+    .prices-buttons-container {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .date-button {
+        margin-bottom: 6px;
+        height: 32px;
     }
 }
 
@@ -157,6 +299,9 @@
     .copyright-container span {
         font-size: 14px;
     }
+    .prices-titles h2 {
+        font-size: 20px;
+    }
 }
 
 /* 320px */
@@ -175,5 +320,15 @@
 
     .copyright-container span {
         font-size: 12px;
+    }
+
+    .main-buttons-container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button-primary {
+        margin-bottom: 16px;
     }
 }
