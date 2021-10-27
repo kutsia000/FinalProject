@@ -1,3 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.menu-toggled {
+    display: block !important;
+}
+
+.menu-toggled ul {
+    display: block;
+    text-align: right;
+    margin-top: 60px;
+    float: right;
+}
+
 /* 1280px */
 @media (max-width:1280px) {
     .header-navigation-container img {
@@ -64,7 +82,8 @@
         width: 245px !important;
     }
     .cources-container,.dropdowns-container{
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
 }
 
@@ -76,9 +95,16 @@
     }
 
     .form-wraper{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: auto;
     }
 
@@ -106,9 +132,16 @@
     }
 
     .price-cards-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .price-card {
@@ -154,12 +187,14 @@
         height: 38px !important;
     }
 
-    .navigation, .button-search-container, .header-ribbon {
+    .navigation, .button-search-container, .header-ribbon, .button-search-container {
         display: none;
     }
 
     .header-navigation-right {
-        justify-content: right;
+        -webkit-box-pack: right;
+            -ms-flex-pack: right;
+                justify-content: right;
         margin-right: 30px;
     }
 
@@ -172,10 +207,17 @@
     }
 
     .infos-container {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: auto;
-        justify-content: center;       
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;       
+        -webkit-box-align: center;       
+            -ms-flex-align: center;       
+                align-items: center;
     }
 
     .info-card {
@@ -210,9 +252,16 @@
     }
 
     .footer-container {
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .prices-titles h2 {
@@ -229,9 +278,16 @@
     }
 
     .contenct-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .contenct-container img {
@@ -261,9 +317,16 @@
         margin-top: 16px;
     }
     .right-box {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         text-align: center;
     }
     .prices-titles h2 {
@@ -274,8 +337,13 @@
     }
     .prices-buttons-container {
         height: auto;
-        flex-direction: column;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .date-button {
         margin-bottom: 6px;
@@ -323,9 +391,15 @@
     }
 
     .main-buttons-container {
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .button-primary {

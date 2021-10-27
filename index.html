@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">   
     <script src="https://kit.fontawesome.com/bae3bb8bdf.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -42,22 +42,22 @@
         <div class="header-navigation">
             <div class="header-navigation-container">
                 <img src="images/Logo-1.png" alt="logo">
-                <div class="header-navigation-right">
-                    <ul class="navigation">
+                <nav class="header-navigation-right" id="navigation">
+                    <ul class="navigation" >
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="cources.html">Courses</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <div class="burger-bar">
-                        <i class="fas fa-bars"></i>
-                    </div>
+                    </ul>                    
                     <div class="button-search-container">
                         <button class="sign-up-button">Sign Up</button>
                         <button class="search-box">
                             <img src="images/icon-search.svg" alt="search-icon">
                         </button>
-                    </div>
+                    </div>                 
+                </nav>
+                <div class="burger-bar" id="BurgerMenu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="info-card center-item">
                     <div class="center-item">
-                        <img src="images/Launch product.png" alt="launch">
+                        <img src="images/Launch_product.png" alt="launch">
                     </div>
                     <h4>120</h4>
                     <p>EXPERT INSTRUCTORS</p>
@@ -307,5 +307,7 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>

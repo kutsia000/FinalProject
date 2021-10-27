@@ -42,19 +42,22 @@
         <div class="header-navigation">
             <div class="header-navigation-container">
                 <img src="images/Logo-1.png" alt="logo">
-                <div class="header-navigation-right">
-                    <div class="navigation">
-                        <a href="index.html">Home</a>
-                        <a href="pricing.html" class="active">Pricing</a>
-                        <a href="cources.html">Courses</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                <nav class="header-navigation-right" id="navigation">
+                    <ul class="navigation" >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pricing.html" class="active">Pricing</a></li>
+                        <li><a href="cources.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>                    
                     <div class="button-search-container">
                         <button class="sign-up-button">Sign Up</button>
                         <button class="search-box">
                             <img src="images/icon-search.svg" alt="search-icon">
                         </button>
-                    </div>
+                    </div>                 
+                </nav>
+                <div class="burger-bar" id="BurgerMenu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -272,5 +275,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>
